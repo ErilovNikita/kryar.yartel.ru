@@ -1,0 +1,96 @@
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.brand-logo img {
+  margin-top: 40px;
+  width: 200px;
+}
+.bg-1 {
+  background-image: url(../img/bg-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.bg-1 h1 {
+  color: rgba(255, 255, 255, 0.7);
+  margin: 120px 0 0 50px;
+  font-size: 36pt;
+}
+.post {
+  margin-bottom: 50px;
+}
+.post h3 {
+  margin-bottom: 15px;
+}
+.mdl-layout {
+  align-items: center;
+  justify-content: center;
+}
+.mdl-layout__content {
+  padding: 24px;
+  flex: none;
+}
+.mdl-textfield__error {
+  width: 100%;
+  left: 0;
+  text-align: left;
+}
+.mdl-color--grey-100 {
+  background-color: transparent !important;
+}
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+  border: none;
+  border-radius: 0;
+}
+.navbar-toggle:hover {
+  background-color: transparent !important;
+}
+.navbar-toggle:hover .fa-bars{
+  color: rgba(255, 255, 255, 0.4)
+}
+.fa-bars {
+  color: rgba(255, 255, 255, 0.7);
+}
+.panel-content {
+  padding: 10px;
+}
+.fa-question-circle, .fa-newspaper-o {
+  margin-top: -3px;
+  float: left;
+}
+.footer {
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+@media screen and (min-width: 992px) {
+  .posts, .news {
+    margin: 30px;
+  }
+  .bg-1 {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .bg-1 {
+    height: 350px;
+  }
+  .bg-1 h1 {
+    margin: 20px 0 0 0;
+  }
+  .brand-logo {
+    text-align: center;
+  }
+  .wrapper {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .bg-1 {
+    height: 400px;
+  }
+}
