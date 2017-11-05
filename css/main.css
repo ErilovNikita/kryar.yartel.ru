@@ -2,6 +2,9 @@
   margin-right: 0 !important;
   margin-left: 0 !important;
 }
+p {
+  margin: 0;
+}
 .brand-logo img {
   margin-top: 40px;
   width: 200px;
@@ -53,20 +56,41 @@
 .navbar-toggle:hover .fa-bars{
   color: rgba(255, 255, 255, 0.4)
 }
+.dropdown-menu>li>a {
+  padding: 8px 30px;
+}
 .fa-bars {
   color: rgba(255, 255, 255, 0.7);
 }
 .panel-content {
   padding: 10px;
 }
+.panel-default>.panel-heading {
+  background: linear-gradient(to right, #62D2A2, #ff7e67);
+  color: #fff;
+  font-weight: bold;
+  height: 45px;
+}
+.panel-default>.panel-heading p {
+  font-weight: bold;
+  text-align: left;
+}
+.panel-default h6 {
+  margin: 0 0 5px;
+}
+.table>tbody>tr>td {
+  border-top: none;
+}
 .fa-question-circle, .fa-newspaper-o {
   margin-top: -3px;
-  float: left;
+  float: right;
 }
 .footer {
   padding: 20px;
   background-color: #f8f8f8;
 }
+
+/* Tablet Style */
 @media screen and (min-width: 992px) {
   .posts, .news {
     margin: 30px;
@@ -87,6 +111,23 @@
   }
   .wrapper {
     padding: 15px;
+  }
+  .contact {
+    text-align: center;
+  }
+  .fa-question-circle, .fa-newspaper-o {
+    margin-top: -25px;
+  }
+  .panel-default {
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+  .panel-heading {
+    border-radius: 0;
+  }
+  .panel {
+    border: none;
+    box-shadow: none !important;
   }
 }
 @media screen and (max-width: 640px) {
