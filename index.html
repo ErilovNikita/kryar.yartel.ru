@@ -2,25 +2,26 @@
 <html>
   <head>
     <meta charset="utf-8">
-<<<<<<< HEAD
+
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="http://allfont.ru/allfont.css?fonts=helvetica_light-normal" rel="stylesheet" type="text/css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="http://use.fontawesome.com/72e7c3493c.js"></script>
     <link rel="stylesheet" href="http://code.getmdl.io/1.3.0/material.indigo-blue.min.css">
-=======
+
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="//allfont.ru/allfont.css?fonts=helvetica_light-normal" rel="stylesheet" type="text/css" />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="//use.fontawesome.com/72e7c3493c.js"></script>
     <link rel="stylesheet" href="//code.getmdl.io/1.3.0/material.indigo-blue.min.css">
->>>>>>> a1d06fab25ec92c54c23c5a3ba7088e0c3e8edb5
+
     <link href="css/main.css" type="text/css" rel="stylesheet">
-    <title></title>
+    <title>Главная | ГБОУ СОШ Красный ЯР</title>
   </head>
   <body>
+
     <!-- Header Logo-->
     <div class="container-fluid bg-1 brand-logo">
       <div class="col-md-2 col-sm-12">
@@ -42,7 +43,7 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="index.html">Главаная</a></li>
+            <li class="active"><a href="index.html">Главаная</a></li>
             <li><a href="#">Сведения об ОУ</a></li>
             <li><a href="#">Документы</a></li>
             <li><a href="#">Фото</a></li>
@@ -60,13 +61,13 @@
           			<li><a href="struktura6.php">Социальные<br>партнеры</a></li>
               </ul>
             </li>
-            <li class="dropdown active">
+            <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 Коллеги
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
-                <li><a href="dir.thml">Директор</a></li>
+                <li><a href="dir.html">Директор</a></li>
                 <li><a href="#">Администрация</a></li>
                 <li><a href="#">Педагоги</a></li>
                 <li><a href="#">Учащиеся</a></li>
@@ -78,9 +79,9 @@
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
-          			<li><a href="deyat1.php">Учебная работа</a></li>
-          			<li><a href="deyat2.php">Воспитательная<br>работа</a></li>
-          			<li><a href="deyat3.php">ФГОС</a></li>
+          			<li><a href="deyat1.html">Учебная работа</a></li>
+          			<li><a href="deyat2.html">Воспитательная<br>работа</a></li>
+          			<li><a href="deyat3.html">ФГОС</a></li>
           			<li><a href="deyat3_1.php">ФГОС ОВЗ</a></li>
           			<li><a href="deyat4.php">ГИА (ЕГЭ)</a></li>
           			<li><a href="deyat5.php">Модернизация<br> образования</a></li>
@@ -173,8 +174,73 @@
           <hr>
         </div>
 
+        <div class="tabs">
+          <div class="col-md-4">
+            <ul>
+              <li><a href="#a" data-toggle="tab">Электронный журнал</a></li>
+              <li class="active"><a href="#b" data-toggle="tab">Сведения об ОУ</a></li>
+              <li><a href="#c" data-toggle="tab">"Горячая линия"</a></li>
+              <li><a href="#d" data-toggle="tab">Страница логопеда</a></li>
+              <li><a href="#e" data-toggle="tab">Конно-спортивная школа</a></li>
+            </ul>
+          </div>
+          <div class="col-md-8 col-sm-12 tab-content">
+            <div class="tab-pane active" id="a" valign="middle">
+								<img src="img/asu.png" style="float:right; width: 200px;">
+								<h4>Электронный журнал</h4>
+								<p>Уважаемые учащиеся и родители, данные для доступа к электронному журналу (логин, пароль) вы можете узнать у вашего классного руководителя.</p>
+								<p>Адрес АСУ РСО: <a href="http://nw.asurso.ru">nw.asurso.ru</a></p>
+								<p>АСУ СРО - комплексная автоматизированная информационная система, объединяющая в единую сеть образовательные учреждения и органы управления образованием в пределах города, сельского или городского района (округа).</p>
+								<p class="class1"><a href="asurso.php"> Информация для педагогов по работе с электронным журналом АСУ РСО</a> </p>
+            </div>
+            <div class="tab-pane" id="b" valign="middle">
+              <h4>Сведения об образовательной организации</h4>
+              <p>В соответствии с Постановлением Правительства Р.Ф. от 10 июля 2013 г. № 582 "Об утверждении Правил размещения на официальном сайте образовательной организации в информационно-телекоммуникационной сети "Интернет" и обновления информации об образовательной организации", и в соответствии с приказом Федеральной службы по надзору в сфере образования и науки от 29.05.2014 No 785 «Об утверждении требований к структуре официального сайта образовательной организации в информационно-телекоммуникационной сети «Интернет» и формату представления на нем информации» раздел информация об образовательной организации к вашим услугам: <a href="http://kryar.yartel.ru/proverka.php">здесь</a>.<p>
+            </div>
+            <div class="tab-pane" id="c" valign="middle">
+              <h4>Телефонная "горячая линия" для родителей по вопросам деятельности общеобразовательных учреждений и электронные приемные</h4>
+              <p>Прием обращений граждан и юридических лиц по телефонной «горячей линии» осуществляется с понедельника по пятницу с 9:00 до 16:00 часов, кроме выходных и праздничных дней, без учета обеденного перерыва по телефонам 8 (846) 572-04-81, 8 (846) 572-04-82.</p>
+            </div>
+            <div class="tab-pane" id="d" valign="middle">
+							<h4>Страница логопеда</h4>
+							<p>Работа школьного логопеда существенно отличается от работы логопеда в детском саду  и поликлинике. Школьный логопед занимается коррекцией не только устной, но и письменной речи, т.е. работает над специфическими (логопедическими) ошибками чтения и письма.</p>
+							<ul>
+							  <li><a href="/files/log_rech.doc"> РЕЧЕВОЕ  РАЗВИТИЕ  В  НОРМЕ. (по данным А.А. Леонтьева, А.Н. Корнева, В.И. Бельтюкова и др.);</a></li>
+                <li><a href="/files/log_ras.docx">РАСПИСАНИЕ ЛОГОПЕДИЧЕСКИХ ЗАНЯТИЙ.</a></li>
+              </ul>
+            </div>
+            <div class="tab-pane" id="e" valign="middle">
+							<h4>Конно-спортивная школа</h4>
+              <img src="img/ksp_2.jpg" style="float: right; width: 200px;">
+							<p>Основной вид деятельности детско-юношеской конно-спортивной школы - образовательная, т.е. обучение всех желающих основам верховой езды и конного спорта. Занятия проводят высококвалифицированные тренеры-преподаватели, окончившие Московскую Академию физической культуры, специализация "Конный спорт".  В этом учебном году сформировано 12 спортивных групп общей численностью 143 человека. Запись в группы производится с 10 лет, в пони-группу для детей с 6 лет.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row post">
+          <hr>
+          <p><b><a href=/db.php>Дорожная безопасность</a></b></p>
+          <p><b><a href=/ap.php>Азбука права. Прокуратура Красноярского района разъясняет</a></b></p>
+          <p><b><a href=/inform.php>ИНФОРМАТИКА И ТЕХНОЛОГИЯ</a></b></p>
+          <p><b><a href=vpr.php>Всероссийские проверочные работы</a></b></p>
+          <p><b><a href=http://персональныеданные.дети>персональныеданные.дети</a></b></p>
+          <p><b><a href=http://kryar.yartel.ru/les>Школьное лесничество "Зеленый "СОК"</a></b></p>
+          <p><b><a href=http://kryar.yartel.ru/tpl_dp14.php>Окружной конкурс "Дары природы - 2015"</a></b></p>
+          <p><a href=files/doc/oorso0417duc.pdf>Отчет о результатах самообследования Структурного подразделение дополнительного образования детей Детско-юношеский  центр государственного бюджетного общеобразовательного учреждения Самарской области средняя общеобразовательная школа с. Красный Яр муниципального района Красноярский Самарской области  на 01.04.2017</a></p>
+          <p><a href=http://kryar.yartel.ru/files/dukss/oosodkssco16-17.pdf>Отчет о самообследовании за 2016-2017 учебный год структурного подразделения дополнительного образования детей «Детско-юношеская конно-спортивная школа» ГБОУ СОШ с. Красный Яр</a></p>
+          <p><a href=files/doc/oorso0417dss.pdf>Отчет о результатах самообследования структурного подразделение дополнительного образования детей «Детско-юношеская спортивная школа» ГБОУ СОШ с. Красный Яр  на 01.04.2017 года</a></p>
+          <p><a href=files/doc/oorso16-17rom.docx>Отчет о результатах самообследования Структурного подразделения  «Детский сад №1 «Ромашка»» ГБОУ СОШ с. Красный Яр за  2016-2017 учебный год</a></p>
+          <p><a href=files/doc/oorso16-17ter.docx>Отчет о результатах самообследования Структурного подразделения  «Детский сад №3 «Теремок»» ГБОУ СОШ с. Красный Яр за  2016-2017 учебный год</a></p>
+          <p><a href=files/doc/oorso16-17.pdf>Отчет о результатах самообследования за 2016-2017 учебный год</a></p>
+          <p><a href=http://frontoviki.yartel.ru>ПЕДАГОГИ-ФРОНТОВИКИ Красноярской школы</a></p>
+          <p><a href=http://kryar.yartel.ru/ssilki.php>Обязательные к размещению на сайтах ОУ ссылки</a></p>
+          <p><a href=files/roditel/zapisv1class.pdf>"Как записать ребенка в 1-ый класс через интернет"</a></p>
+        </div>
+
       </div>
       <!-- END Block Post's -->
+
+
 
       <!-- Block News -->
       <div class="container news col-md-3 col-sm-12">
@@ -277,15 +343,25 @@
 
     <!-- Footer -->
     <div class="row footer">
-      <div class="col-md-7 col-sm-12">
-        <p>Идея, содержание и поддержка - ГБОУ СОШ с. Красный Яр</p>
-        <p>Разработка, дизайн - <a href="erilov63.ru">Ерилов Никита</a></p>
-        <p><i class="fa fa-phone" aria-hidden="true"></i> 8(xxx)xxx-xx-xx</p>
-        <p><i class="fa fa-envelope-open" aria-hidden="true"></i> xxx@xxx.xxx</p>
-        <p><i class="fa fa-fax" aria-hidden="true"></i>2-xx-xx</p>
+      <div class="col-md-1">
       </div>
-      <div class="col-md-5 col-sm-12">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2373.2630378721497!2d50.39316475154407!3d53.499496470831374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41664736cdbbbcb9%3A0xc6aa2d120593c099!2z0J_QvtC70LXQstCw0Y8g0YPQuy4sIDUsINCa0YDQsNGB0L3Ri9C5INCv0YAsINCh0LDQvNCw0YDRgdC60LDRjyDQvtCx0LsuLCA0NDYzNzA!5e0!3m2!1sru!2sru!4v1509446186112" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <div class="col-md-10">
+        <div class="col-md-4 col-sm-12">
+          <p><i class="fa fa-phone" aria-hidden="true"></i>8(xxx)xxx-xx-xx</p>
+          <p><i class="fa fa-envelope-open" aria-hidden="true"></i>xxx@xxx.xxx</p>
+          <p><i class="fa fa-fax" aria-hidden="true"></i>2-xx-xx</p>
+        </div>
+        <div class="col-md-4 col-sm-12 text-center">
+          fdgdrhgdtfh
+        </div>
+        <div class="col-md-4 col-sm-12 text-center">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2373.2630378721497!2d50.39316475154407!3d53.499496470831374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41664736cdbbbcb9%3A0xc6aa2d120593c099!2z0J_QvtC70LXQstCw0Y8g0YPQuy4sIDUsINCa0YDQsNGB0L3Ri9C5INCv0YAsINCh0LDQvNCw0YDRgdC60LDRjyDQvtCx0LsuLCA0NDYzNzA!5e0!3m2!1sru!2sru!4v1509446186112" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-12 text-center">
+          <hr>
+          <p>Идея, содержание и поддержка - ГБОУ СОШ с. Красный Яр</p>
+          <p>Разработка, дизайн - <a href="erilov63.ru">Ерилов Никита</a></p>
+        </div>
       </div>
     </div>
     <!-- END Footer -->
